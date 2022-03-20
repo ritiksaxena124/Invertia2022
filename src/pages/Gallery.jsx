@@ -10,7 +10,7 @@ export default class AutoPlay extends Component {
     var settings = {
       dots: false,
       infinite: true,
-      slidesToShow: 2,
+      slidesToShow: 1,
       slidesToScroll: 1,
       autoplay: true,
       autoplaySpeed: 2000,

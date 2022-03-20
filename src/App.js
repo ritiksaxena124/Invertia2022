@@ -15,7 +15,7 @@ import ItechEvents from "./components/ItechEvents";
 import StrideEvents from "./components/StrideEvents";
 import RIEvents from "./components/RIEvents";
 import ImagesEvents from "./components/ImagesEvents";
-
+import PanacheEvents from "./components/PanacheEvents";
 function App() {
   return (
     <div className="App">
@@ -36,7 +36,7 @@ function App() {
           <Route path="/strideevents" element={<StrideEvents/>} />
           <Route path="/rievents" element={<RIEvents/>} />
           <Route path="/imagesevents" element={<ImagesEvents/>} />
-
+          <Route path="/panacheevents" element={<PanacheEvents/>} />
 
 
         </Routes>

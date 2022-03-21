@@ -15,6 +15,7 @@ function EventCard({
   setLink,
   imgLink,
   setimgLink,
+  date, Time, venue, setTime, setVenue, setDate
 }) {
   const setValues = (name, tagline) => {
     setTitle(name);
@@ -23,6 +24,9 @@ function EventCard({
     setDesc(desc);
     setLink(link);
     setimgLink(imgLink);
+    setTime(Time);
+    setDate(date);
+    setVenue(venue)
   };
   return (
     <>

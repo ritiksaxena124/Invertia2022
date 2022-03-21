@@ -17,15 +17,6 @@ const events = [
         Time: "10:00 AM to 12:00 PM",
         downloadLink: ""
       },
-      {
-        name: "idhar chala mai udhar chala",
-        tagline: "The Hurdle Challenge",
-        imglink:"img/Events/RI/chala.jpg",
-        venue: "University Block Ground",
-        date: "25th March, 2022",
-        Time: "11:00 AM to 05:00 PM",
-        downloadLink: ""
-      },
 ];
 
 module.exports = events;

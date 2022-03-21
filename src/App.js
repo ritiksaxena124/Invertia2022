@@ -16,6 +16,8 @@ import StrideEvents from "./components/StrideEvents";
 import RIEvents from "./components/RIEvents";
 import ImagesEvents from "./components/ImagesEvents";
 import PanacheEvents from "./components/PanacheEvents";
+import RockonEvents from "./components/RockonEvents";
+import MFactorEvents from "./components/MFactorEvents";
 function App() {
   return (
     <div className="App">
@@ -37,8 +39,8 @@ function App() {
           <Route path="/rievents" element={<RIEvents/>} />
           <Route path="/imagesevents" element={<ImagesEvents/>} />
           <Route path="/panacheevents" element={<PanacheEvents/>} />
-
-
+          <Route path="/rockonevents" element={<RockonEvents/>} />
+          <Route path="/mfactorevents" element={<MFactorEvents/>} />
         </Routes>
       </BrowserRouter>
     </div>

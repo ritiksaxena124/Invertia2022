@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { Zoom } from "react-awesome-reveal";
-function Modal({ closeModal, title, tagline, desc, link, imgLink }) {
+function Modal({ closeModal, title, tagline, desc, link, imgLink, date, time, venue }) {
   return (
     <>
       <ModalBackground>
@@ -22,6 +22,11 @@ function Modal({ closeModal, title, tagline, desc, link, imgLink }) {
                   </Rules>
                 </RulesContainer>
               )}
+              <DateTime>
+                <Date><b>Date: </b>{date}</Date>
+                <Time> <b>Time: </b> {time}</Time>
+              </DateTime>
+              <Venue><b>Venue: </b>{venue}</Venue>
             </Body>
           </ModalContainer>
         </Zoom>
@@ -188,22 +193,23 @@ const Body = styled.div`
   margin-top: 40px;
   text-align: center;
   color: #fff;
+  padding: 10px 9px;
 `;
 const Title = styled.h1`
-  font-size: 1.3em;
+  font-size: 1.6em;
   letter-spacing: 2px;
   text-transform: uppercase;
   @media screen and (max-width: 750px) {
-    font-size: 1em;
+    font-size: 1.4em;
   }
 `;
 const Tagline = styled.h3`
   margin-top: 10px;
-  font-size: 1em;
+  font-size: 1.3em;
   letter-spacing: 2px;
 
   @media screen and (max-width: 750px) {
-    font-size: 0.8em;
+    font-size: 1em;
   }
 `;
 const Desc = styled.p`
@@ -217,7 +223,26 @@ const Desc = styled.p`
     font-size: 0.8em;
   }
 `;
+const DateTime = styled.div`
+display:flex;
+height: 50px;
+flex-wrap: wrap;
+width: 500px;
+justify-content: space-between;
+align-items:center;
+margin: 7px;
+@media screen and (max-width: 450px){
+  flex-direction: column;
+  justify-content: space-around;
 
+}
+
+`
+const Date = styled.div``
+const Time = styled.div``
+const Venue = styled.div`
+  margin: 7px;
+`
 // RULES SECTION
 const RulesContainer = styled.div``;
 const Rules = styled.div`

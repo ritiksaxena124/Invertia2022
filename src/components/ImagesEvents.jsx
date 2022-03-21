@@ -11,7 +11,9 @@ function ImagesEvents() {
   const [desc, setDesc] = useState();
   const [link, setLink] = useState();
   const [imgLink, setimgLink] = useState();
-
+  const [date, setDate] = useState();
+  const [time, setTime] = useState();
+  const [venue, setVenue] = useState();
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -52,6 +54,12 @@ function ImagesEvents() {
                       setLink={setLink}
                       imgLink={item.imglink}
                       setimgLink={setimgLink}
+                      date={item.date}
+                      Time={item.Time}
+                      venue={item.venue}
+                      setDate={setDate}
+                      setVenue={setVenue}
+                      setTime = {setTime}
                     />
                     </>
                   )
@@ -69,6 +77,9 @@ function ImagesEvents() {
               desc={desc}
               link={link}
               imgLink={imgLink}
+              venue={venue}
+              time={time}
+              date={date}
             />
           )}
         </Wrapper>

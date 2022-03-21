@@ -1,7 +1,7 @@
 const events = [
     {
         name: "Dancing Maze",
-        tagline: "रुकावाट ",
+        tagline: "",
         imglink:"img/Events/MFactor/dancingmaze.png",
         venue: "M-Block Lawn 1",
         date: "25th March, 2022",

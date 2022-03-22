@@ -1,4 +1,13 @@
 const events = [
+  {
+    name: "Streez",
+    tagline: "The Street Dance",
+    imglink:"img/Events/Rockon/Streez.jpg",
+    venue: "Three Way Junction",
+    date: "25th March, 2022",
+    Time: "03:00 PM to 05:00 PM",
+    downloadLink: ""
+  },
     {
         name: "Voice of Invertia",
         tagline: "Let Your Heart Sing",
@@ -8,15 +17,7 @@ const events = [
         Time: "02:00 PM to 05:00 PM",
         downloadLink: ""
       },
-      {
-        name: "Streez",
-        tagline: "The Street Dance",
-        imglink:"img/Events/Rockon/Streez.jpg",
-        venue: "Three Way Junction",
-        date: "25th March, 2022",
-        Time: "03:00 PM to 05:00 PM",
-        downloadLink: ""
-      },
+      
       {
         name: "Danspiration Reloaded",
         tagline: "",

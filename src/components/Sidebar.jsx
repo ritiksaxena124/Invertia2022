@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import { Link } from "react-router-dom";
 import pageLinks from "../data/pagelink";
 
 const Sidebar = ({ action }) => {
@@ -17,9 +16,9 @@ const Sidebar = ({ action }) => {
                 return (
                   <>
                     <Items data-text={items.name}>
-                      <Link to={items.link}>
+                      <a href={items.link}>
                         <Item>{items.name}</Item>
-                      </Link>
+                      </a>
                     </Items>
                   </>
                 );

@@ -8,6 +8,10 @@ const pageLinks = [
         link: "/events"
     },
     {
+        name:"MR. & MS. INVERTIA",
+        link:"http://vote.invertia2022.in/"
+    },
+    {
         name: "MESSAGES",
         link: "/msg"
     },

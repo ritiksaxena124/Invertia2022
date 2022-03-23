@@ -58,7 +58,7 @@ const LeftSide = styled.div`
 const LogoContainer = styled.div`
   width: 70px;
   height: 70px;
-  margin: 10px;
+  margin: 20px;
   @media screen and (max-width: 450px) {
     width: 50px;
     height: 50px;
